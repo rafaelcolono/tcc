@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contaempresa.css">
+    <title>Criar Conta - Empresa</title>
+</head>
+<body>
+    <div class="login-container"> 
+        <h3>Empresa</h3>
+        <form id="empresaForm">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="CNPJ">CNPJ:</label>
+            <input type="password" id="CNPJ" name="CNPJ" required><br>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required><br>        
+
+            <span id="errorMessage" style="color: red;"></span>
+            <a href="#" onclick="validateForm(event)" class="button">Criar Conta</a>    
+        </form>
+    </div>
+
+    <script src="JAVASCRIPT/criar conta empresa.js"></script>
+</body>
+</html>

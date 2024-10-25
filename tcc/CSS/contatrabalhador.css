@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    background-image: url('TCC papel de parede.jpg');
+}
+
+.login-container {
+    width: 100%;
+    max-width: 600px; 
+    padding: 30px 20px; 
+    border-radius: 10px;
+    background-color: #ffffff; 
+    border: solid 2px #357ae8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+h3 {
+    margin: 15px 0 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: #ffffff; 
+    font-size: 24px; 
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+}
+
+a {
+    background-color: #4285f4;
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 4px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: block; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    margin-top: 10px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+a:hover {
+    background-color: #357ae8; 
+    transform: scale(1.05); 
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    background-color: transparent; 
+    border: none; 
+    padding: 0;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000; 
+}
+
+#errorMessage {
+    color: #d93025; 
+    font-size: 14px; 
+    margin-top: 10px; 
+    text-align: center; 
+}

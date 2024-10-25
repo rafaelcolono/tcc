@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    background-image: url('../IMAGEM/Wallpaper.jpg');
+}
+
+.login-container {
+    width: 100%;
+    max-width: 600px; /* Largura máxima para responsividade */
+    padding: 30px 20px; /* Espaçamento interno */
+    border-radius: 10px;
+    background-color: #ffffff; /* Fundo branco */
+    border: solid 2px #357ae8; /* Bordas estilizadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
+h3 {
+    margin: 15px 0 20px; /* Margem para separar do conteúdo */
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #4285f4; /* Cor do cabeçalho */
+    color: #ffffff; /* Texto branco */
+    font-size: 24px; /* Tamanho da fonte */
+    font-family: 'Roboto', sans-serif; /* Fonte estilizada */
+    text-align: center; /* Centraliza o texto */
+}
+
+a {
+    background-color: #4285f4; /* Cor de fundo do Google */
+    color: #ffffff; /* Texto branco */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Borda arredondada */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: block; /* Exibe como bloco */
+    font-family: 'Roboto', sans-serif; /* Fonte estilizada */
+    font-weight: 500; /* Peso da fonte */
+    margin-top: 10px; /* Espaçamento acima do botão */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+}
+
+a:hover {
+    background-color: #357ae8; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+form {
+    display: flex; /* Flexbox para alinhar os itens */
+    flex-direction: column; /* Direção vertical */
+    background-color: transparent; /* Fundo transparente */
+    border: none; /* Remove borda do formulário */
+    padding: 0; /* Remove padding do formulário */
+    width: 100%; /* Ocupa 100% da largura do container */
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%; /* Ocupa 100% da largura do container */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento abaixo de cada campo */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Borda arredondada */
+    font-family: 'Roboto', sans-serif; /* Fonte estilizada */
+    font-size: 14px; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+
+/* Estilo para mensagens de erro */
+#errorMessage {
+    color: #d93025; /* Cor para mensagens de erro */
+    font-size: 14px; /* Tamanho da fonte */
+    margin-top: 10px; /* Espaço acima */
+    text-align: center; /* Centraliza mensagem */
+}

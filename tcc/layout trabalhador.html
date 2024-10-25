@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Trabalho</title>
+    <link rel="stylesheet" href="CSS/layout trabalhador.css">
+</head>
+<body>
+    <header>
+        <div id="logo-and-profile">
+            <img src="IMAGEM/logo.png" alt="Logo" id="site-logo">
+            <div id="user-profile">
+                <img src="IMAGEM/foto de perfil.png" alt="Foto de perfil">
+                <span>nome do cara</span>
+            </div>
+        </div>
+        <div id="search-and-create">
+            <div id="search-area">
+                <input type="text" id="company-search" placeholder="Pesquisar Empresa...">
+                <button onclick="searchCompany()">Pesquisar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="company-info">
+            <h1>nome da empresa</h1>
+            <div id="search-results"></div>
+        </section>
+        <section id="notifications">
+            <h2>Notificações</h2>
+            <div id="notification-list"></div>
+        </section>
+    </main>
+    <div id="footer-actions">
+        <button id="create-cv" onclick="window.location.href='https://www.livecareer.com.br/lp/lbrpt01.aspx?utm_source=google&utm_medium=sem&utm_campaign=21517845339&utm_term=criar%20curriculo&network=g&device=c&adposition=&adgroupid=169063156201&placement=&adid=707787395180&gad_source=1&gclid=Cj0KCQjwn9y1BhC2ARIsAG5IY-5o_5MMDCRa0fmGY8vecOSCKH20_zbIOK4ps763uOHWQUVxPu7o9IAaAjKXEALw_wcB '">Criar Currículo</button>
+        <div id="warning-box">
+            Aviso: Caso você não tenha um currículo pronto, vá em criar currículo ao lado. Assim que tiver acesso à empresa desejada, terá que carregar currículo em PDF.
+        </div>
+    </div> 
+    <script src="JAVASCRIPT/layout trabalhador.js"></script>
+</body>
+</html>
